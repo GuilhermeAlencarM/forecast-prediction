@@ -1,7 +1,7 @@
 from pydantic import BaseModel, validator
 
 class Request(BaseModel):
-    numberofdays: int = 1
+    numberofdays: int = 120
 
     @validator('numberofdays')
     def check_non_zero(cls, v):
