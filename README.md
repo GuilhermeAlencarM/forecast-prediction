@@ -1,10 +1,10 @@
-#handtalk-services-api
+#forecast-prediction
 
 Instalação
 
     Clone o repositório:
 
-    git clone https://github.com/GuilhermeAlencarM/handtalk-services-api.git
+    git clone https://github.com/GuilhermeAlencarM/forecast-prediction
 
 
 
@@ -14,7 +14,7 @@ bash
 
     python3 -m venv venv
     source venv/bin/activate  # Linux/Mac
-    .\venv\Scripts\activate   # Windows
+
 
 Instale as dependências:
 
